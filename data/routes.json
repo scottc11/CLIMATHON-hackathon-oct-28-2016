@@ -1,0 +1,654 @@
+/*
+  - Query NextBus for the current location (long, lat) of the bus
+  - Take bus long / lat and create a Query for Google Maps which calculates
+  the route from current bus location to next bus stop.
+  - current_loc, next_stop_loc
+*/
+
+{
+  "routes": [
+      {
+        "route_short_name": "71",
+        "route_long_name": "RUNNYMEDE",
+        "route_type": "3",
+        "route_id": "47694",
+        "current_gps_loc": "",
+        "stops":
+            [
+              {
+                "stop_name": "Runnymede StationAccessible",
+                "stop_code": 14755,
+                "stop_lat": 43.655404,
+                "stop_lon": -79.459841,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at Bloor St West North Side",
+                "stop_code": 11760,
+                "stop_lat": 43.658145,
+                "stop_lon": -79.461359,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at Colbeck St North SideAccessible",
+                "stop_code": 7053,
+                "stop_lat": 43.661536,
+                "stop_lon": -79.462808,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at Glenwood Ave North Side",
+                "stop_code": 7060,
+                "stop_lat": 43.663408,
+                "stop_lon": -79.463589,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at Webb Ave",
+                "stop_code": 7073,
+                "stop_lat": 43.665278,
+                "stop_lon": -79.46441,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at Annette StAccessible",
+                "stop_code": 7047,
+                "stop_lat": 43.667688,
+                "stop_lon": -79.465429,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at Maher AveAccessible",
+                "stop_code": 7064,
+                "stop_lat": 43.669887,
+                "stop_lon": -79.466369,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at St Johns RdAccessible",
+                "stop_code": 7070,
+                "stop_lat": 43.672415,
+                "stop_lon": -79.467449,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at Dundas St WestAccessible",
+                "stop_code": 7057,
+                "stop_lat": 43.674018,
+                "stop_lon": -79.469132,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at Dundas St West North SideAccessible",
+                "stop_code": 7058,
+                "stop_lat": 43.675803,
+                "stop_lon": -79.470103,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at St Clair Ave WestAccessible",
+                "stop_code": 7068,
+                "stop_lat": 43.677152,
+                "stop_lon": -79.47165,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "St Clair Ave West at Britannia AveAccessible",
+                "stop_code": 7359,
+                "stop_lat": 43.678748,
+                "stop_lon": -79.473714,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "St Clair Ave West at Cobalt AveAccessible",
+                "stop_code": 7361,
+                "stop_lat": 43.680239,
+                "stop_lon": -79.475244,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "St Clair Ave West at Mondovi GateAccessible",
+                "stop_code": 15061,
+                "stop_lat": 43.681287,
+                "stop_lon": -79.47627,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Gunns Loop at St Clair Ave WestAccessible",
+                "stop_code": 6534,
+                "stop_lat": 43.683549,
+                "stop_lon": -79.481081,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Runnymede Rd at Henrietta St",
+                "stop_code": 7062,
+                "stop_lat": 43.684215,
+                "stop_lon": -79.483795,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Henrietta St at Castleton Ave",
+                "stop_code": 6417,
+                "stop_lat": 43.684931,
+                "stop_lon": -79.485196,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Rockcliffe Blvd at Corbett Ave North SideAccessible",
+                "stop_code": 6957,
+                "stop_lat": 43.685986,
+                "stop_lon": -79.487388,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Opposite 400 Rockcliffe Blvd (Rockcliffe Middle School)",
+                "stop_code": 6963,
+                "stop_lat": 43.686815,
+                "stop_lon": -79.489043,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Rockcliffe Blvd at Alliance AveAccessible",
+                "stop_code": 6953,
+                "stop_lat": 43.687939,
+                "stop_lon": -79.4918,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Rockcliffe Blvd at Caesar Ave North Side",
+                "stop_code": 6956,
+                "stop_lat": 43.688657,
+                "stop_lon": -79.493997,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Rockcliffe Blvd at Homer Ave North Side",
+                "stop_code": 6959,
+                "stop_lat": 43.689501,
+                "stop_lon": -79.496398,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Rockcliffe Blvd at Lambton Ave",
+                "stop_code": 6961,
+                "stop_lat": 43.690364,
+                "stop_lon": -79.498482,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Lambton Ave at Guestville Ave",
+                "stop_code": 6504,
+                "stop_lat": 43.691276,
+                "stop_lon": -79.50065,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Lambton Ave at Cashman Cres (East)",
+                "stop_code": 13441,
+                "stop_lat": 43.692284,
+                "stop_lon": -79.503097,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Lambton Ave at Weston Rd",
+                "stop_code": 13442,
+                "stop_lat": 43.693195,
+                "stop_lon": -79.504409,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Dennis AveAccessible",
+                "stop_code": 8716,
+                "stop_lat": 43.694623,
+                "stop_lon": -79.506148,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at York Ave North SideAccessible",
+                "stop_code": 8780,
+                "stop_lat": 43.696161,
+                "stop_lon": -79.507971,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Eglinton Ave WestAccessible",
+                "stop_code": 8718,
+                "stop_lat": 43.697442,
+                "stop_lon": -79.509476,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Oxford DrAccessible",
+                "stop_code": 8755,
+                "stop_lat": 43.698774,
+                "stop_lon": -79.512256,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Ray AveAccessible",
+                "stop_code": 8759,
+                "stop_lat": 43.700049,
+                "stop_lon": -79.515772,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Ray Ave at Bartonville Ave EastAccessible",
+                "stop_code": 9323,
+                "stop_lat": 43.700726,
+                "stop_lon": -79.517993,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Industry St at Ray Ave North Side",
+                "stop_code": 14610,
+                "stop_lat": 43.701408,
+                "stop_lon": -79.520475,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "120 Industry St",
+                "stop_code": 14535,
+                "stop_lat": 43.70235,
+                "stop_lon": -79.523516,
+                "route_nm": 71,
+                "visible": 1
+              },
+              {
+                "stop_name": "Mount Dennis Garage",
+                "stop_code": 14533,
+                "stop_lat": 43.702977,
+                "stop_lon": -79.5251,
+                "route_nm": 71,
+                "visible": 1
+              }
+            ]
+      },
+      {
+        "route_short_name": "89",
+        "route_long_name": "WESTON",
+        "route_type": "3",
+        "route_id": "47713",
+        "stops":
+            [
+              {
+                "stop_name": "Keele StationAccessible",
+                "stop_code": 14706,
+                "stop_lat": 43.655404,
+                "stop_lon": -79.459841,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Keele St at Glenlake Ave",
+                "stop_code": 7888,
+                "stop_lat": 43.658145,
+                "stop_lon": -79.461359,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Keele St at Humberside Ave",
+                "stop_code": 7891,
+                "stop_lat": 43.661536,
+                "stop_lon": -79.462808,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Keele St at Annette St",
+                "stop_code": 7882,
+                "stop_lat": 43.663408,
+                "stop_lon": -79.463589,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Keele St at Dundas St WestAccessible",
+                "stop_code": 7886,
+                "stop_lat": 43.665278,
+                "stop_lon": -79.46441,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Keele St at Junction RdAccessible",
+                "stop_code": 7893,
+                "stop_lat": 43.667688,
+                "stop_lon": -79.465429,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Keele St at West Toronto St",
+                "stop_code": 7901,
+                "stop_lat": 43.669887,
+                "stop_lon": -79.466369,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Keele St at St Clair Ave WestAccessible",
+                "stop_code": 11689,
+                "stop_lat": 43.672415,
+                "stop_lon": -79.467449,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Birdstone Cres (North)Accessible",
+                "stop_code": 8752,
+                "stop_lat": 43.674018,
+                "stop_lon": -79.469132,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Gunns RdAccessible",
+                "stop_code": 11068,
+                "stop_lat": 43.675803,
+                "stop_lon": -79.470103,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at McCormack StAccessible",
+                "stop_code": 8748,
+                "stop_lat": 43.677152,
+                "stop_lon": -79.47165,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Northland AveAccessible",
+                "stop_code": 8751,
+                "stop_lat": 43.678748,
+                "stop_lon": -79.473714,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Seneca AveAccessible",
+                "stop_code": 8764,
+                "stop_lat": 43.680239,
+                "stop_lon": -79.475244,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Rogers RdAccessible",
+                "stop_code": 8763,
+                "stop_lat": 43.681287,
+                "stop_lon": -79.47627,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Black Creek Dr North SideAccessible",
+                "stop_code": 8696,
+                "stop_lat": 43.683549,
+                "stop_lon": -79.481081,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Lambton AveAccessible",
+                "stop_code": 8740,
+                "stop_lat": 43.684215,
+                "stop_lon": -79.483795,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Dennis AveAccessible",
+                "stop_code": 8716,
+                "stop_lat": 43.684931,
+                "stop_lon": -79.485196,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at York Ave North SideAccessible",
+                "stop_code": 8780,
+                "stop_lat": 43.685986,
+                "stop_lon": -79.487388,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Eglinton Ave WestAccessible",
+                "stop_code": 8718,
+                "stop_lat": 43.686815,
+                "stop_lon": -79.489043,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Oxford DrAccessible",
+                "stop_code": 8755,
+                "stop_lat": 43.687939,
+                "stop_lon": -79.4918,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Ray AveAccessible",
+                "stop_code": 8759,
+                "stop_lat": 43.688657,
+                "stop_lon": -79.493997,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Victoria BlvdAccessible",
+                "stop_code": 8775,
+                "stop_lat": 43.689501,
+                "stop_lon": -79.496398,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Craydon AveAccessible",
+                "stop_code": 8713,
+                "stop_lat": 43.690364,
+                "stop_lon": -79.498482,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Jane StAccessible",
+                "stop_code": 8733,
+                "stop_lat": 43.691276,
+                "stop_lon": -79.50065,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Dora Spencer Rd North Side",
+                "stop_code": 8758,
+                "stop_lat": 43.692284,
+                "stop_lon": -79.503097,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Sidney Belsey CresAccessible",
+                "stop_code": 14517,
+                "stop_lat": 43.693195,
+                "stop_lon": -79.504409,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Clouston AveAccessible",
+                "stop_code": 8706,
+                "stop_lat": 43.694623,
+                "stop_lon": -79.506148,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Denison Rd EastAccessible",
+                "stop_code": 8714,
+                "stop_lat": 43.696161,
+                "stop_lon": -79.507971,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Victoria Ave East North SideAccessible",
+                "stop_code": 8774,
+                "stop_lat": 43.697442,
+                "stop_lon": -79.509476,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Wright Ave North Side",
+                "stop_code": 8779,
+                "stop_lat": 43.698774,
+                "stop_lon": -79.512256,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Lawrence Ave WestAccessible",
+                "stop_code": 8743,
+                "stop_lat": 43.700049,
+                "stop_lon": -79.515772,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at John St North SideAccessible",
+                "stop_code": 6177,
+                "stop_lat": 43.700726,
+                "stop_lon": -79.517993,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at King StAccessible",
+                "stop_code": 6178,
+                "stop_lat": 43.701408,
+                "stop_lon": -79.520475,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Fern AveAccessible",
+                "stop_code": 6176,
+                "stop_lat": 43.70235,
+                "stop_lon": -79.523516,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Church StAccessible",
+                "stop_code": 8704,
+                "stop_lat": 43.702977,
+                "stop_lon": -79.5251,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Coulter Ave North SideAccessible",
+                "stop_code": 8711,
+                "stop_lat": 43.704754,
+                "stop_lon": -79.528421,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Parke StAccessible",
+                "stop_code": 8757,
+                "stop_lat": 43.705961,
+                "stop_lon": -79.530863,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Oak St North SideAccessible",
+                "stop_code": 7443,
+                "stop_lat": 43.708152,
+                "stop_lon": -79.533624,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Cardell AveAccessible",
+                "stop_code": 14262,
+                "stop_lat": 43.709503,
+                "stop_lon": -79.5343,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Knob Hill Dr",
+                "stop_code": 7445,
+                "stop_lat": 43.710855,
+                "stop_lon": -79.534765,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Walsh AveAccessible",
+                "stop_code": 7446,
+                "stop_lat": 43.716424,
+                "stop_lon": -79.537342,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Albion Rd at Weston Rd West SideAccessible",
+                "stop_code": 6233,
+                "stop_lat": 43.717575,
+                "stop_lon": -79.538471,
+                "route_nm": 89,
+                "visible": 1
+              },
+              {
+                "stop_name": "Weston Rd at Albion Rd South SideAccessible",
+                "stop_code": 7439,
+                "stop_lat": 43.717045,
+                "stop_lon": -79.537862,
+                "route_nm": 89,
+                "visible": 1
+              }
+            ]
+      }
+    ]
+}
